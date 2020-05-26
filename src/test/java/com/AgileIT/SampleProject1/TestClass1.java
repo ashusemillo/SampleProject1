@@ -26,12 +26,12 @@ public class TestClass1 {
 	}
 	@Test
 	public void Test2() {
-		driver.navigate().to("https://www.google.com/");
+		driver.navigate().to("https://www.facebook.com/");
 		System.out.println("Test2 title is "+ driver.getTitle());
 	}
 	@Test
 	public void Test3() {
-		driver.navigate().to("https://www.google.com/");
+		driver.navigate().to("https://www.gmail.com/");
 		System.out.println("Test3 title is "+ driver.getTitle());
 	}
 	
